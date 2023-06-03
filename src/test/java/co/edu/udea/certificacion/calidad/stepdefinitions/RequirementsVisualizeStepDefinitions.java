@@ -26,14 +26,13 @@ public class RequirementsVisualizeStepDefinitions {
         driver.manage().window().maximize();
         estudiante.can(BrowseTheWeb.with(driver));
     }
-    @When("digito un documento incorrecto y le doy click en buscar")
-    public void digitoNumeroIncorrecto(){
+    @When("digito mi numero de cedula")
+    public void digitoNumeroCedula(){
         estudiante.attemptsTo(HomePage.Browser(new UsuarioPage()));
-
     }
 
-    @Then("puedo ver una alerta con un mensaje de error al buscar el documento")
-    public void puedoVerAlerta(){
+    @Then("puedo ver la pagina donde se observan los requisitos")
+    public void puedoVerLosRequisitos(){
         estudiante.should(seeThat(ValidationRequirements.theRequirementsPage(),equalTo(true)));
     }
 
