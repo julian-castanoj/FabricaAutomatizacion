@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Consulta la pagina principal de la U de A" skipped="0" tests="1" time="11.62" timestamp="2023-05-22 09:24:16"><testcase name="Buscar la pagina oficial de la UdeA en el motor de busqueda de Google"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+com.calidad.calidadautomation.interactions.RequirementsHomePage.performAs(UdeaHomePage.java:18)&#13;
+com.calidad.calidadautomation.tasks.HomePage.performAs(OpenThe.java:20)&#13;
+co.edu.udea.certificacion.calidad.stepdefinitions.RequirementsVisualizeStepDefinitions.escribaLaPalabraUdeA(FindHomePageStepDefinitions.java:40)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>
