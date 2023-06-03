@@ -18,10 +18,7 @@ public class RequirementsHomePage implements Interaction {
         actor.attemptsTo(
                 Enter.theValue("1234567890").into(INPUT_NUMBER_DOCUMENT),
                 Click.on(BUTTON_BUSCAR)
-
         );
-
-
 
     }
 
